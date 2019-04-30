@@ -1,0 +1,23 @@
+{
+  "name": "rukhlinks-store",
+  "version": "1.0.0",
+  "description": "e-commerce shopping store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Prince Brown (iwebdevelop.ca)",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.3.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
